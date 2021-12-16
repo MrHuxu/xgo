@@ -4,8 +4,7 @@ package arrays
 func Map[T any](array []T, iteratee func(idx int, value T) T) (result []T) {
 	result = make([]T, 0, len(array))
 
-	length := len(array)
-	for idx := 0; idx < length; idx++ {
+	for idx := range array {
 		result = append(result, iteratee(idx, array[idx]))
 	}
 

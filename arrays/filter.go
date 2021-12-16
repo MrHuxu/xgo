@@ -4,8 +4,7 @@ package arrays
 func Filter[T any](array []T, predicate func(idx int, value T) bool) (result []T) {
 	result = make([]T, 0, len(array))
 
-	length := len(array)
-	for idx := 0; idx < length; idx++ {
+	for idx := range array {
 		if predicate(idx, array[idx]) {
 			result = append(result, array[idx])
 		}
