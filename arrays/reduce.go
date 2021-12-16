@@ -4,8 +4,9 @@ package arrays
 func Reduce[T any](array []T, iteratee func(idx int, value, accumulator T) T, initAccumulator T) (result T) {
 	result = initAccumulator
 
-	for idx, value := range array {
-		result = iteratee(idx, value, result)
+	length := len(array)
+	for idx := 0; idx < length; idx++ {
+		result = iteratee(idx, array[idx], result)
 	}
 
 	return

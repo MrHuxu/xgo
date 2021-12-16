@@ -7,8 +7,9 @@ func Merge[K comparable, V any](base map[K]V, maps ...map[K]V) (result map[K]V) 
 	}
 
 	result = base
-	for _, m := range maps {
-		for k, v := range m {
+	length := len(maps)
+	for idx := 0; idx < length; idx++ {
+		for k, v := range maps[idx] {
 			result[k] = v
 		}
 	}
