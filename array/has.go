@@ -1,4 +1,4 @@
-package arrays
+package array
 
 // Has checks if any element of the array that predicate returns truthy for
 func Has[T any](array []T, predicate func(idx int, value T) bool) bool {

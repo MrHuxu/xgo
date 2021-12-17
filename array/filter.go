@@ -1,4 +1,4 @@
-package arrays
+package array
 
 // Filter iterates over elements of array, returning an array of all elements predicate returns truthy for
 func Filter[T any](array []T, predicate func(idx int, value T) bool) (result []T) {
