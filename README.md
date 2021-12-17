@@ -18,5 +18,11 @@ Go util functions based on generics
 - Set
 
 - Stack
+  - [x] Size
+  - [x] Push
+  - [x] Pop
 
 - Queue
+  - [x] Size
+  - [x] Enqueue
+  - [x] Dequeue
