@@ -16,6 +16,11 @@ Go util functions based on generics
   - [x] Merge
 
 - Set
+  - [x] Size
+  - [x] Add
+  - [x] Remove
+  - [x] Members
+  - [x] Each
 
 - Stack
   - [x] Size
