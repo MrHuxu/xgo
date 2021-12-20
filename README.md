@@ -31,3 +31,8 @@ Go util functions based on generics
   - [x] Size
   - [x] Enqueue
   - [x] Dequeue
+
+- Heap
+  - [x] Size
+  - [x] Push
+  - [x] Pop
