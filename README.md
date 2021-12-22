@@ -11,6 +11,7 @@ Go util functions based on generics
   - [x] Has, HasElem
   - [x] First
   - [x] Filter
+  - [x] Uniq, UniqBy
 
 - Map
   - [x] Merge
