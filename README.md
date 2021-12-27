@@ -12,6 +12,7 @@ Go util functions based on generics
   - [x] First
   - [x] Filter
   - [x] Uniq, UniqBy
+  - [x] Every
 
 - Map
   - [x] Merge
