@@ -2,7 +2,7 @@
 
 ---
 
-![](https://github.com/MrHuxu/xgo/actions/workflows/unit-test.yml/badge.svg?branch=master)
+![https://github.com/MrHuxu/xgo/actions?query=branch%3Amaster](https://github.com/MrHuxu/xgo/actions/workflows/unit-test.yml/badge.svg?branch=master)
 
 ---
 
