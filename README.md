@@ -1,5 +1,11 @@
 ## xgo
 
+---
+
+![](https://github.com/MrHuxu/xgo/actions/workflows/unit-test.yml/badge.svg?branch=master)
+
+---
+
 Go util functions based on generics
 
 - Control
